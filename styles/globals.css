@@ -14,3 +14,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+amplify-s3-image {
+  --height: 300px;
+  --width: 300px;
+}
+.image-container {
+  box-shadow: -7px 20px 41px 0 rgba(0,0,0,0.41);
+  width: 300px;
+  height: 300px;
+  max-width: 400px;
+  max-height: 400px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
+.uploaded-image {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
